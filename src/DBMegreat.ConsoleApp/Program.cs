@@ -9,6 +9,7 @@ namespace DBMegreat.ConsoleApp
     {
         static async Task Main(string[] args)
         {
+            Console.WriteLine("Test changes");
             var ioHelper = new IOHelper();
             var trackerRepositoryFactory = new MegreatTracksRepositoryFactory();
             var logger = new ConsoleLogger();
